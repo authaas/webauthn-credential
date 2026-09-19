@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package authenticator;
+
+import "authenticator/attachment.proto";
+import "requirement/resident_key.proto";
+import "requirement/user_verification.proto";
+
+message SelectionCriteria {
+  Attachment authenticator_attachment = 1;
+  requirement.ResidentKey resident_key = 2;
+  bool require_resident_key = 3;
+  requirement.UserVerification user_verification = 4;
+}

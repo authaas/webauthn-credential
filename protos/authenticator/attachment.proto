@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package authenticator;
+
+enum Attachment {
+  ATTACHMENT_UNSPECIFIED = 0;
+  ATTACHMENT_PLATFORM = 1;
+  ATTACHMENT_CROSS_PLATFORM = 2;
+}

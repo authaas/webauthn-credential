@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package public_key_credential;
+
+import "attestation/conveyance_preference.proto";
+import "authenticator/selection_criteria.proto";
+import "identity/user.proto";
+import "public_key_credential/descriptor.proto";
+import "public_key_credential/parameters.proto";
+import "public_key_credential/rp_entity.proto";
+import "webauthn/challenge.proto";
+import "webauthn/extensions.proto";
+
+message CreationOptions {
+  webauthn.Challenge challenge = 1;
+  uint32 timeout = 2;
+  RpEntity rp = 3;
+  identity.User user = 4;
+  repeated Parameters pub_key_cred_params = 5;
+  repeated Descriptor exclude_credentials = 6;
+  authenticator.SelectionCriteria authenticator_selection = 7;
+  repeated string hints = 8;
+  attestation.ConveyancePreference attestation = 9;
+  repeated string attestation_formats = 10;
+  webauthn.RequestExtensions extensions = 11;
+}

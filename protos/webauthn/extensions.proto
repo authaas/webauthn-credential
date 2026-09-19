@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package webauthn;
+
+// RequestExtensions is the extension inputs a ceremony's options carry.
+// Opaque.
+message RequestExtensions {
+  bytes bytes = 1;
+}
+
+// ResponseExtensions is the client extension outputs a completed ceremony
+// returns. Opaque.
+message ResponseExtensions {
+  bytes bytes = 1;
+}
