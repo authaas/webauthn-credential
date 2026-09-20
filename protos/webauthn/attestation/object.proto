@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package attestation;
+package webauthn.attestation;
 
 // Object is the attestation object of a registration, as the authenticator
 // returned it: the exact bytes, never re-encoded. It carries the credential's

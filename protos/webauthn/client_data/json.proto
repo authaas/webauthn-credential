@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package client_data;
+package webauthn.client_data;
 
 // JSON is the client data of a ceremony, as the authenticator signed it: the
 // exact bytes, never parsed and re-serialized.
