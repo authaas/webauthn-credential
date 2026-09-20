@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package webauthn;
-
-// RpId is the relying party identifier a ceremony was issued under.
-message RpId {
-  string id = 1;
-}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package webauthn.ceremony;
+
+// Challenge is a fixed-size cryptographically random value the server generated for
+// one ceremony.
+message Challenge {
+  bytes bytes = 1;
+}
