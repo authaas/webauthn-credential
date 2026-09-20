@@ -2,7 +2,7 @@ version: v2
 
 modules:
   - path: protos
-    name: buf.build/authaas/webauthn
+    name: buf.build/authaas/webauthn-credential
 
 lint:
   use:
