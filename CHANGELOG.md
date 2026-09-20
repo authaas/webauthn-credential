@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.2.1 - 2026-09-20
+#### Bug Fixes
+- bump identity - (71c6c2c) - Nathan Blair
+
+- - -
+
 ## 0.2.0 - 2026-09-20
 #### Features
 - release only shared types - (4c4da62) - Nathan Blair
