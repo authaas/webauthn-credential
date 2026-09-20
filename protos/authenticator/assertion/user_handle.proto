@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package authenticator.assertion;
-
-// UserHandle is the 16 raw bytes of a principal's UUID: the WebAuthn user id
-// the credential was registered under. An authenticator may omit it.
-message UserHandle {
-  bytes bytes = 1;
-}

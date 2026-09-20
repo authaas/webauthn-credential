@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package public_key_credential;
-
-enum Type {
-  TYPE_UNSPECIFIED = 0;
-  TYPE_PUBLIC_KEY = 1;
-}

@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package authenticator.assertion;
-
-// Signature is the authenticator's signature over the authenticator data
-// followed by the SHA-256 of the client data JSON.
-message Signature {
-  bytes bytes = 1;
-}
