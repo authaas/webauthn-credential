@@ -4,8 +4,6 @@ modules:
   - path: protos
     name: buf.build/authaas/webauthn
 
-deps: [buf.build/authaas/identity:0.5.0]
-
 lint:
   use:
     - STANDARD
