@@ -3,8 +3,7 @@ syntax = "proto3";
 package webauthn.attestation;
 
 // Object is the attestation object of a registration, as the authenticator
-// returned it: the exact bytes, never re-encoded. It carries the credential's
-// public key, initial sign count, and flags.
+// returned it.
 message Object {
   bytes bytes = 1;
 }
